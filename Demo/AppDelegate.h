@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PhysicalKeyboardNotifications.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
