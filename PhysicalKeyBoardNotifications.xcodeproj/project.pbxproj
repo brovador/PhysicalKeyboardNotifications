@@ -72,7 +72,7 @@
 		1C8F4CB817DB1D0A00BDA396 = {
 			isa = PBXGroup;
 			children = (
-				1CFD8DE517DBA0DD00009534 /* KeyBoardCommands */,
+				1CFD8DE517DBA0DD00009534 /* PhysicalKeyboardNotifications */,
 				1CFD8DCC17DBA08400009534 /* Demo */,
 				1C8F4CC317DB1D0A00BDA396 /* Frameworks */,
 				1C8F4CC217DB1D0A00BDA396 /* Products */,
@@ -128,7 +128,7 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		1CFD8DE517DBA0DD00009534 /* KeyBoardCommands */ = {
+		1CFD8DE517DBA0DD00009534 /* PhysicalKeyboardNotifications */ = {
 			isa = PBXGroup;
 			children = (
 				1CFD8DF517DBAA0D00009534 /* PKNCommandsManager.h */,
@@ -138,6 +138,7 @@
 				1CFD8DF917DBAA0E00009534 /* UIApplication+PKN.h */,
 				1CFD8DFA17DBAA0E00009534 /* UIApplication+PKN.m */,
 			);
+			name = PhysicalKeyboardNotifications;
 			path = KeyBoardCommands;
 			sourceTree = "<group>";
 		};
@@ -182,7 +183,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jesús";
 			};
-			buildConfigurationList = 1C8F4CBC17DB1D0A00BDA396 /* Build configuration list for PBXProject "PhysicalKeyBoardNotifications" */;
+			buildConfigurationList = 1C8F4CBC17DB1D0A00BDA396 /* Build configuration list for PBXProject "PhysicalKeyboardNotifications" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -358,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C8F4CBC17DB1D0A00BDA396 /* Build configuration list for PBXProject "PhysicalKeyBoardNotifications" */ = {
+		1C8F4CBC17DB1D0A00BDA396 /* Build configuration list for PBXProject "PhysicalKeyboardNotifications" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C8F4CE217DB1D0A00BDA396 /* Debug */,
