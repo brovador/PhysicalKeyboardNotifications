@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C8F4CC517DB1D0A00BDA396 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8F4CC417DB1D0A00BDA396 /* UIKit.framework */; };
+		1C8F4CC717DB1D0A00BDA396 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8F4CC617DB1D0A00BDA396 /* Foundation.framework */; };
+		1C8F4CC917DB1D0A00BDA396 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C8F4CC817DB1D0A00BDA396 /* CoreGraphics.framework */; };
+		1CFD8DDB17DBA08400009534 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD8DCD17DBA08400009534 /* Default-568h@2x.png */; };
+		1CFD8DDC17DBA08400009534 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD8DCE17DBA08400009534 /* Default.png */; };
+		1CFD8DDD17DBA08400009534 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD8DCF17DBA08400009534 /* Default@2x.png */; };
+		1CFD8DDF17DBA08400009534 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFD8DD217DBA08400009534 /* MainStoryboard.storyboard */; };
+		1CFD8DE017DBA08400009534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD8DD517DBA08400009534 /* AppDelegate.m */; };
+		1CFD8DE117DBA08400009534 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD8DD717DBA08400009534 /* ViewController.m */; };
+		1CFD8DE317DBA08400009534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD8DDA17DBA08400009534 /* main.m */; };
+		1CFD8DF017DBA11A00009534 /* UIAlertView+PKN.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD8DEF17DBA11A00009534 /* UIAlertView+PKN.m */; };
+		1CFD8DF417DBA6F800009534 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD8DF317DBA6F800009534 /* ModalViewController.m */; };
+		1CFD8DFB17DBAA0E00009534 /* PKNCommandsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD8DF617DBAA0E00009534 /* PKNCommandsManager.m */; };
+		1CFD8DFC17DBAA0E00009534 /* UIApplication+PKN.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD8DFA17DBAA0E00009534 /* UIApplication+PKN.m */; };
+		9F38AC2E88CA4527847B083C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE93EAD836D4EBEB9314711 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C8F4CC117DB1D0A00BDA396 /* PhysicalKeyBoardNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicalKeyBoardNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8F4CC417DB1D0A00BDA396 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1C8F4CC617DB1D0A00BDA396 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1C8F4CC817DB1D0A00BDA396 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CFD8DCD17DBA08400009534 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1CFD8DCE17DBA08400009534 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1CFD8DCF17DBA08400009534 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1CFD8DD317DBA08400009534 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1CFD8DD417DBA08400009534 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CFD8DD517DBA08400009534 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CFD8DD617DBA08400009534 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CFD8DD717DBA08400009534 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CFD8DD817DBA08400009534 /* PhysicalKeyBoardNotifications-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PhysicalKeyBoardNotifications-Info.plist"; sourceTree = "<group>"; };
+		1CFD8DD917DBA08400009534 /* PhysicalKeyBoardNotifications-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PhysicalKeyBoardNotifications-Prefix.pch"; sourceTree = "<group>"; };
+		1CFD8DDA17DBA08400009534 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CFD8DEE17DBA11A00009534 /* UIAlertView+PKN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+PKN.h"; sourceTree = "<group>"; };
+		1CFD8DEF17DBA11A00009534 /* UIAlertView+PKN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+PKN.m"; sourceTree = "<group>"; };
+		1CFD8DF217DBA6F800009534 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		1CFD8DF317DBA6F800009534 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		1CFD8DF517DBAA0D00009534 /* PKNCommandsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKNCommandsManager.h; path = PhysicalKeyBoardNotifications/PKNCommandsManager.h; sourceTree = SOURCE_ROOT; };
+		1CFD8DF617DBAA0E00009534 /* PKNCommandsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKNCommandsManager.m; path = PhysicalKeyBoardNotifications/PKNCommandsManager.m; sourceTree = SOURCE_ROOT; };
+		1CFD8DF717DBAA0E00009534 /* PKNDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKNDefines.h; path = PhysicalKeyBoardNotifications/PKNDefines.h; sourceTree = SOURCE_ROOT; };
+		1CFD8DF817DBAA0E00009534 /* PhysicalKeyboardNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhysicalKeyboardNotifications.h; path = PhysicalKeyBoardNotifications/PhysicalKeyboardNotifications.h; sourceTree = SOURCE_ROOT; };
+		1CFD8DF917DBAA0E00009534 /* UIApplication+PKN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+PKN.h"; path = "PhysicalKeyBoardNotifications/UIApplication+PKN.h"; sourceTree = SOURCE_ROOT; };
+		1CFD8DFA17DBAA0E00009534 /* UIApplication+PKN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+PKN.m"; path = "PhysicalKeyBoardNotifications/UIApplication+PKN.m"; sourceTree = SOURCE_ROOT; };
+		D02898FD0EAB4BB9BF194EFC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FFE93EAD836D4EBEB9314711 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C8F4CBE17DB1D0A00BDA396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8F4CC517DB1D0A00BDA396 /* UIKit.framework in Frameworks */,
+				1C8F4CC717DB1D0A00BDA396 /* Foundation.framework in Frameworks */,
+				1C8F4CC917DB1D0A00BDA396 /* CoreGraphics.framework in Frameworks */,
+				9F38AC2E88CA4527847B083C /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C8F4CB817DB1D0A00BDA396 = {
+			isa = PBXGroup;
+			children = (
+				1CFD8DE517DBA0DD00009534 /* KeyBoardCommands */,
+				1CFD8DCC17DBA08400009534 /* Demo */,
+				1C8F4CC317DB1D0A00BDA396 /* Frameworks */,
+				1C8F4CC217DB1D0A00BDA396 /* Products */,
+				D02898FD0EAB4BB9BF194EFC /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		1C8F4CC217DB1D0A00BDA396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C8F4CC117DB1D0A00BDA396 /* PhysicalKeyBoardNotifications.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C8F4CC317DB1D0A00BDA396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C8F4CC417DB1D0A00BDA396 /* UIKit.framework */,
+				1C8F4CC617DB1D0A00BDA396 /* Foundation.framework */,
+				1C8F4CC817DB1D0A00BDA396 /* CoreGraphics.framework */,
+				FFE93EAD836D4EBEB9314711 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CFD8DCC17DBA08400009534 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD8DF117DBA13B00009534 /* Sample Extensions */,
+				1CFD8DE417DBA09200009534 /* Resources */,
+				1CFD8DD217DBA08400009534 /* MainStoryboard.storyboard */,
+				1CFD8DD417DBA08400009534 /* AppDelegate.h */,
+				1CFD8DD517DBA08400009534 /* AppDelegate.m */,
+				1CFD8DD617DBA08400009534 /* ViewController.h */,
+				1CFD8DD717DBA08400009534 /* ViewController.m */,
+				1CFD8DF217DBA6F800009534 /* ModalViewController.h */,
+				1CFD8DF317DBA6F800009534 /* ModalViewController.m */,
+				1CFD8DD917DBA08400009534 /* PhysicalKeyBoardNotifications-Prefix.pch */,
+				1CFD8DDA17DBA08400009534 /* main.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		1CFD8DE417DBA09200009534 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD8DD817DBA08400009534 /* PhysicalKeyBoardNotifications-Info.plist */,
+				1CFD8DCD17DBA08400009534 /* Default-568h@2x.png */,
+				1CFD8DCE17DBA08400009534 /* Default.png */,
+				1CFD8DCF17DBA08400009534 /* Default@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1CFD8DE517DBA0DD00009534 /* KeyBoardCommands */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD8DF517DBAA0D00009534 /* PKNCommandsManager.h */,
+				1CFD8DF617DBAA0E00009534 /* PKNCommandsManager.m */,
+				1CFD8DF717DBAA0E00009534 /* PKNDefines.h */,
+				1CFD8DF817DBAA0E00009534 /* PhysicalKeyboardNotifications.h */,
+				1CFD8DF917DBAA0E00009534 /* UIApplication+PKN.h */,
+				1CFD8DFA17DBAA0E00009534 /* UIApplication+PKN.m */,
+			);
+			path = KeyBoardCommands;
+			sourceTree = "<group>";
+		};
+		1CFD8DF117DBA13B00009534 /* Sample Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1CFD8DEE17DBA11A00009534 /* UIAlertView+PKN.h */,
+				1CFD8DEF17DBA11A00009534 /* UIAlertView+PKN.m */,
+			);
+			name = "Sample Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C8F4CC017DB1D0A00BDA396 /* PhysicalKeyBoardNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C8F4CE417DB1D0A00BDA396 /* Build configuration list for PBXNativeTarget "PhysicalKeyBoardNotifications" */;
+			buildPhases = (
+				C174ECE1DF4F40A381E58E6E /* Check Pods Manifest.lock */,
+				1C8F4CBD17DB1D0A00BDA396 /* Sources */,
+				1C8F4CBE17DB1D0A00BDA396 /* Frameworks */,
+				1C8F4CBF17DB1D0A00BDA396 /* Resources */,
+				74A360A408E44DD7BA70030F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysicalKeyBoardNotifications;
+			productName = KeyboardCommands;
+			productReference = 1C8F4CC117DB1D0A00BDA396 /* PhysicalKeyBoardNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C8F4CB917DB1D0A00BDA396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KBC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jesús";
+			};
+			buildConfigurationList = 1C8F4CBC17DB1D0A00BDA396 /* Build configuration list for PBXProject "PhysicalKeyBoardNotifications" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C8F4CB817DB1D0A00BDA396;
+			productRefGroup = 1C8F4CC217DB1D0A00BDA396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C8F4CC017DB1D0A00BDA396 /* PhysicalKeyBoardNotifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C8F4CBF17DB1D0A00BDA396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFD8DDB17DBA08400009534 /* Default-568h@2x.png in Resources */,
+				1CFD8DDC17DBA08400009534 /* Default.png in Resources */,
+				1CFD8DDD17DBA08400009534 /* Default@2x.png in Resources */,
+				1CFD8DDF17DBA08400009534 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74A360A408E44DD7BA70030F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C174ECE1DF4F40A381E58E6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C8F4CBD17DB1D0A00BDA396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFD8DE017DBA08400009534 /* AppDelegate.m in Sources */,
+				1CFD8DE117DBA08400009534 /* ViewController.m in Sources */,
+				1CFD8DE317DBA08400009534 /* main.m in Sources */,
+				1CFD8DF017DBA11A00009534 /* UIAlertView+PKN.m in Sources */,
+				1CFD8DF417DBA6F800009534 /* ModalViewController.m in Sources */,
+				1CFD8DFB17DBAA0E00009534 /* PKNCommandsManager.m in Sources */,
+				1CFD8DFC17DBAA0E00009534 /* UIApplication+PKN.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CFD8DD217DBA08400009534 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CFD8DD317DBA08400009534 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C8F4CE217DB1D0A00BDA396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1C8F4CE317DB1D0A00BDA396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C8F4CE517DB1D0A00BDA396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02898FD0EAB4BB9BF194EFC /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/PhysicalKeyBoardNotifications-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/PhysicalKeyBoardNotifications-Info.plist";
+				PRODUCT_NAME = PhysicalKeyBoardNotifications;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1C8F4CE617DB1D0A00BDA396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02898FD0EAB4BB9BF194EFC /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo/PhysicalKeyBoardNotifications-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Demo/PhysicalKeyBoardNotifications-Info.plist";
+				PRODUCT_NAME = PhysicalKeyBoardNotifications;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C8F4CBC17DB1D0A00BDA396 /* Build configuration list for PBXProject "PhysicalKeyBoardNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C8F4CE217DB1D0A00BDA396 /* Debug */,
+				1C8F4CE317DB1D0A00BDA396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C8F4CE417DB1D0A00BDA396 /* Build configuration list for PBXNativeTarget "PhysicalKeyBoardNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C8F4CE517DB1D0A00BDA396 /* Debug */,
+				1C8F4CE617DB1D0A00BDA396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C8F4CB917DB1D0A00BDA396 /* Project object */;
+}
