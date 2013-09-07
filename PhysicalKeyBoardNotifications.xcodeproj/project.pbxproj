@@ -131,10 +131,10 @@
 		1CFD8DE517DBA0DD00009534 /* PhysicalKeyboardNotifications */ = {
 			isa = PBXGroup;
 			children = (
+				1CFD8DF817DBAA0E00009534 /* PhysicalKeyboardNotifications.h */,
 				1CFD8DF517DBAA0D00009534 /* PKNCommandsManager.h */,
 				1CFD8DF617DBAA0E00009534 /* PKNCommandsManager.m */,
 				1CFD8DF717DBAA0E00009534 /* PKNDefines.h */,
-				1CFD8DF817DBAA0E00009534 /* PhysicalKeyboardNotifications.h */,
 				1CFD8DF917DBAA0E00009534 /* UIApplication+PKN.h */,
 				1CFD8DFA17DBAA0E00009534 /* UIApplication+PKN.m */,
 			);
