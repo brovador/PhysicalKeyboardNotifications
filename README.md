@@ -1,4 +1,4 @@
-PhysicalKeyBoardNotifications
+PhysicalKeyboardNotifications
 =============================
 
 An easy way to receive notifications on iPhone simulator when physical keyboard is pressed. 
